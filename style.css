@@ -1,0 +1,127 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  animation:animate 8s ease-in-out infinite;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+nav .logo a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.details{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+
+
+@keyframes animate{
+  0%,100%{
+    background-image: url(./images/index_images/tajm.jpg);
+  }
+  25%{
+    background-image: url(./images/index_images/ice.jpg);
+  }
+  50%{
+    background-image: url(./images/index_images/lake.jpg);
+  }
+  75%{
+    background-image: url(./images/index_images/hima.jpeg);
+  }
+}
+nav{
+  width: 100%;height: 13vh;
+  background: rgba(0, 0, 0, 0.815);
+  color: white;display: flex;justify-content: space-between;
+  align-items: center;text-transform: uppercase;
+}
+nav .logo{
+  width: 25%;text-align:center;
+}
+
+nav .menu{
+  width: 40%;
+  display: flex;justify-content: space-around;
+}
+
+nav .menu a{
+  width: 25%;
+  text-decoration: none;color: white;
+  font-weight: bold;
+}
+
+nav .menu a::first-line{
+  color: #d1972a
+}
+
+
+main{
+  width:100%;
+  height: 82vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;color: white;
+}
+
+section h3{
+  font-size: 35px;font-weight: 200;letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
+}
+
+section h1{
+  margin: 30px 0 20px 0;
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px black;
+  text-transform: uppercase;
+}
+
+section p{
+  font-size: 25px;
+  word-spacing: 2px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px black;
+}
+
+section a{
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+section .button1{
+  background: rgba(0, 0, 0, 0.801);
+  color: white;
+}
+
+.change_content:after{
+  content:"";
+  animation :changetext 8s infinite linear;
+  color: #aaeb13;
+}
+@keyframes changetext{
+  0%,100%{content: " Kerala";}
+  25%{content: " Delhi";}
+  50%{content: " Goa";}
+  75%{content: " Jammu and Kashmir";}
+}

@@ -1,0 +1,325 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  body{
+    background-color: rgba(15, 15, 15, 0.856);
+  }
+  .container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation:animate 8s ease-in-out infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  nav .logo a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .details{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  
+  
+  
+  @keyframes animate{
+    0%,100%{
+      background-image: url(../images/tajm.jpg);
+    }
+    25%{
+      background-image: url(../images/ice.jpg);
+    }
+    50%{
+      background-image: url(../images/lake.jpg);
+    }
+    75%{
+      background-image: url(../images/hima.jpeg);
+    }
+  }
+  nav{
+    width: 100%;height: 13vh;
+    background: rgba(0, 0, 0, 0.815);
+    color: white;display: flex;justify-content: space-between;
+    align-items: center;text-transform: uppercase;
+  }
+  nav .logo{
+    width: 25%;text-align:center;
+  }
+  
+  nav .menu{
+    width: 40%;
+    display: flex;justify-content: space-around;
+  }
+  
+  nav .menu a{
+    width: 25%;
+    text-decoration: none;color: white;
+    font-weight: bold;
+  }
+  
+  nav .menu a::first-line{
+    color: #d1972a
+  }
+  .historical_heading{
+    position: absolute;
+    top:20%;
+    left:5%;
+    color:white;
+  }
+ .grid_view img{
+  width: 25%;
+  height: 25%;
+  box-shadow: 1px 2px 10px 2px white;
+  position: absolute;
+  left:90%
+  }
+  .grid_view .img_1 img{
+    position: absolute;
+    top:28%;
+    left:10%;
+  }
+  .grid_view .img_2 img{
+    position: absolute;
+    top:28%;
+    left:37%;
+  }
+  .grid_view .img_3 img{
+    position: absolute;
+    top:28%;
+    left:64%;
+  }
+  .grid_view .img_4 img{
+    position: absolute;
+    top:57%;
+    left:10%;
+  }
+  .grid_view .img_5 img{
+    position: absolute;
+    top:57%;
+    left:37%;
+  }
+  .grid_view .img_6 img{
+    position: absolute;
+    top:57%;
+    left:64%;
+  }
+  .grid_view .img_7 img{
+    position: absolute;
+    top:86%;
+    left:10%;
+  }
+  .grid_view .img_8 img{
+    position: absolute;
+    top:86%;
+    left:37%;
+  }
+  .grid_view .img_9 img{
+    position: absolute;
+    top:86%;
+    left:64%;
+  }
+  .grid_view .img_10 img{
+    position: absolute;
+    top:115%;
+    left:10%;
+  }
+  .grid_view .img_11 img{
+    position: absolute;
+    top:115%;
+    left:37%;
+  }
+  .grid_view .img_12 img{
+    position: absolute;
+    top:115%;
+    left:64%;
+  }
+  .grid_view .img_13 img{
+    position: absolute;
+    top:144%;
+    left:10%;
+  }
+  .grid_view .img_14 img{
+    position: absolute;
+    top:144%;
+    left:37%;
+  }
+  .grid_view .img_15 img{
+    position: absolute;
+    top:144%;
+    left:64%;
+  }
+  .grid_view .img_16 img{
+    position: absolute;
+    top:173%;
+    left:10%;
+  }
+  .grid_view .img_17 img{
+    position: absolute;
+    top:173%;
+    left:37%;
+  }
+  .grid_view .img_18 img{
+    position: absolute;
+    top:173%;
+    left:64%;
+  }
+  .grid_view .img_19 img{
+    position: absolute;
+    top:202%;
+    left:10%;
+  }
+  .grid_view .img_20 img{
+    position: absolute;
+    top:202%;
+    left:37%;
+  }
+  .grid_view .img_21 img{
+    position: absolute;
+    top:202%;
+    left:64%;
+  }
+  .grid_view .img_22 img{
+    position: absolute;
+    top:231%;
+    left:10%;
+  }
+  .grid_view .img_23 img{
+    position: absolute;
+    top:231%;
+    left:37%;
+  }
+  .grid_view .img_24 img{
+    position: absolute;
+    top:231%;
+    left:64%;
+  }
+  .grid_view .img_25 img{
+    position: absolute;
+    top:260%;
+    left:10%;
+  }
+  .grid_view .img_26 img{
+    position: absolute;
+    top:260%;
+    left:37%;
+  }
+  .grid_view .img_27 img{
+    position: absolute;
+    top:260%;
+    left:64%;
+  }
+  .grid_view .img_28 img{
+    position: absolute;
+    top:289%;
+    left:10%;
+  }
+  .grid_view .img_29 img{
+    position: absolute;
+    top:289%;
+    left:37%;
+  }
+  .grid_view .img_30 img{
+    position: absolute;
+    top:289%;
+    left:64%;
+  }
+  .grid_view .img_31 img{
+    position: absolute;
+    top:318%;
+    left:10%;
+  }
+  .grid_view .img_32 img{
+    position: absolute;
+    top:318%;
+    left:37%;
+  }
+  .grid_view .img_33 img{
+    position: absolute;
+    top:318%;
+    left:64%;
+  }
+  .grid_view .img_34 img{
+    position: absolute;
+    top:347%;
+    left:10%;
+  }
+  .grid_view .img_35 img{
+    position: absolute;
+    top:347%;
+    left:37%;
+  }
+  .grid_view .img_36 img{
+    position: absolute;
+    top:347%;
+    left:64%;
+  }
+  .grid_view .img_37 img{
+    position: absolute;
+    top:376%;
+    left:10%;
+  }
+  .grid_view .img_38 img{
+    position: absolute;
+    top:376%;
+    left:37%;
+  }
+  .grid_view .img_39 img{
+    position: absolute;
+    top:376%;
+    left:64%;
+  }
+  .grid_view .img_40 img{
+    position: absolute;
+    top:405%;
+    left:10%;
+  }
+  .grid_view .img_41 img{
+    position: absolute;
+    top:405%;
+    left:37%;
+  }
+  .grid_view .img_42 img{
+    position: absolute;
+    top:405%;
+    left:64%;
+  }
+  .grid_view .img_43 img{
+    position: absolute;
+    top:434%;
+    left:10%;
+  }
+  .grid_view .img_44 img{
+    position: absolute;
+    top:434%;
+    left:37%;
+  }
+  .grid_view .img_45 img{
+    position: absolute;
+    top:434%;
+    left:64%;
+  }
+  .grid_view .img_46 img{
+    position: absolute;
+    top:463%;
+    left:10%;
+  }
+  .grid_view .img_47 img{
+    position: absolute;
+    top:463%;
+    left:37%;
+  }
+  .grid_view .img_48 img{
+    position: absolute;
+    top:463%;
+    left:64%;
+  }
